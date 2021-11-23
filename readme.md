@@ -1,7 +1,7 @@
-link vào web bán hàng: http://localhost/s-cart/public
-link vàv web quản trị: http://localhost/s-cart/public/sc_admin 
-user: admin
-pass: admin123
+link vào web bán hàng: http://localhost/s-cart/public  <br>
+link vàv web quản trị: http://localhost/s-cart/public/sc_admin   <br>
+user: admin <br>
+pass: admin123 <br>
 
 ### Shop_APP_GROCERY 
 <b>1 Intall Xampp PHP 8 <br>
