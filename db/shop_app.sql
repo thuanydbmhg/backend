@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th10 16, 2021 lúc 07:18 AM
+-- Thời gian đã tạo: Th10 23, 2021 lúc 05:46 PM
 -- Phiên bản máy phục vụ: 10.4.21-MariaDB
 -- Phiên bản PHP: 8.0.12
 
@@ -360,7 +360,96 @@ CREATE TABLE `sc_admin_log` (
 --
 
 INSERT INTO `sc_admin_log` (`id`, `user_id`, `path`, `method`, `ip`, `user_agent`, `input`, `created_at`, `updated_at`) VALUES
-(1, 1, 'sc_admin', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', '[]', '2021-11-16 06:00:02', '2021-11-16 06:00:02');
+(1, 1, 'sc_admin', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36', '[]', '2021-11-16 06:00:02', '2021-11-16 06:00:02'),
+(2, 1, 'sc_admin', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:24:03', '2021-11-23 16:24:03'),
+(3, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:24:27', '2021-11-23 16:24:27'),
+(4, 1, 'sc_admin/product/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"24,23,22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:24:33', '2021-11-23 16:24:33'),
+(5, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:24:35', '2021-11-23 16:24:35'),
+(6, 1, 'sc_admin/product/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"21,17,16,14,13,12,11,7,6,4,3,2,1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:24:39', '2021-11-23 16:24:39'),
+(7, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:24:40', '2021-11-23 16:24:40'),
+(8, 1, 'sc_admin/product/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"12,6,2\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:24:45', '2021-11-23 16:24:45'),
+(9, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:24:46', '2021-11-23 16:24:46'),
+(10, 1, 'sc_admin', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:25:07', '2021-11-23 16:25:07'),
+(11, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:26:57', '2021-11-23 16:26:57'),
+(12, 1, 'sc_admin/banner/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"4\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:27:01', '2021-11-23 16:27:01'),
+(13, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:27:02', '2021-11-23 16:27:02'),
+(14, 1, 'sc_admin/banner/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"3\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:27:04', '2021-11-23 16:27:04'),
+(15, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:27:05', '2021-11-23 16:27:05'),
+(16, 1, 'sc_admin/banner/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"2\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:27:16', '2021-11-23 16:27:16'),
+(17, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:27:16', '2021-11-23 16:27:16'),
+(18, 1, 'sc_admin/banner/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:27:20', '2021-11-23 16:27:20'),
+(19, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:27:20', '2021-11-23 16:27:20'),
+(20, 1, 'sc_admin/news', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:27:45', '2021-11-23 16:27:45'),
+(21, 1, 'sc_admin/news/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"6,5,4,3,2,1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:27:49', '2021-11-23 16:27:49'),
+(22, 1, 'sc_admin/news', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:27:50', '2021-11-23 16:27:50'),
+(23, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:28:08', '2021-11-23 16:28:08'),
+(24, 1, 'sc_admin/product/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:28:13', '2021-11-23 16:28:13'),
+(25, 1, 'sc_admin/category', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:29:15', '2021-11-23 16:29:15'),
+(26, 1, 'sc_admin/category/delete', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"ids\":\"13,12,11,10,9,8,7,6,5,4,3,2,1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:29:20', '2021-11-23 16:29:20'),
+(27, 1, 'sc_admin/category', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"_pjax\":\"#pjax-container\"}', '2021-11-23 16:29:20', '2021-11-23 16:29:20'),
+(28, 1, 'sc_admin/category/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:29:30', '2021-11-23 16:29:30'),
+(29, 1, 'sc_admin/order', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:30:49', '2021-11-23 16:30:49'),
+(30, 1, 'sc_admin/order', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:33:33', '2021-11-23 16:33:33'),
+(31, 1, 'sc_admin/order/detail/1', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:34:04', '2021-11-23 16:34:04'),
+(32, 1, 'sc_admin/order/update', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"name\":\"status\",\"value\":\"5\",\"pk\":\"1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:34:41', '2021-11-23 16:34:41'),
+(33, 1, 'sc_admin/order', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:34:50', '2021-11-23 16:34:50'),
+(34, 1, 'sc_admin/order/detail/1', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:35:12', '2021-11-23 16:35:12'),
+(35, 1, 'sc_admin/order/update', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"name\":\"shipping_status\",\"value\":\"3\",\"pk\":\"1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:35:21', '2021-11-23 16:35:21'),
+(36, 1, 'sc_admin/order/update', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"name\":\"payment_status\",\"value\":\"3\",\"pk\":\"1\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:36:23', '2021-11-23 16:36:23'),
+(37, 1, 'sc_admin/order', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:36:25', '2021-11-23 16:36:25'),
+(38, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:36:34', '2021-11-23 16:36:34'),
+(39, 1, 'sc_admin/category', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:36:38', '2021-11-23 16:36:38'),
+(40, 1, 'sc_admin/category/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:36:46', '2021-11-23 16:36:46'),
+(41, 1, 'sc_admin/uploads', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"type\":\"category\"}', '2021-11-23 16:38:16', '2021-11-23 16:38:16'),
+(42, 1, 'sc_admin/uploads/errors', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"_\":\"1637685499252\"}', '2021-11-23 16:38:19', '2021-11-23 16:38:19'),
+(43, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"_\":\"1637685499251\"}', '2021-11-23 16:38:19', '2021-11-23 16:38:19'),
+(44, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685499253\"}', '2021-11-23 16:38:20', '2021-11-23 16:38:20'),
+(45, 1, 'sc_admin/uploads', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"type\":\"category\"}', '2021-11-23 16:39:14', '2021-11-23 16:39:14'),
+(46, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"_\":\"1637685554898\"}', '2021-11-23 16:39:15', '2021-11-23 16:39:15'),
+(47, 1, 'sc_admin/uploads/errors', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"_\":\"1637685554899\"}', '2021-11-23 16:39:15', '2021-11-23 16:39:15'),
+(48, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"category\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685554900\"}', '2021-11-23 16:39:15', '2021-11-23 16:39:15'),
+(49, 1, 'sc_admin/uploads/upload', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"category\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:39:22', '2021-11-23 16:39:22'),
+(50, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"category\",\"_\":\"1637685554901\"}', '2021-11-23 16:39:23', '2021-11-23 16:39:23'),
+(51, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"category\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685554902\"}', '2021-11-23 16:39:23', '2021-11-23 16:39:23'),
+(52, 1, 'sc_admin/category/create', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"descriptions\":{\"en\":{\"title\":\"rau xanh\",\"keyword\":\"rau\",\"description\":\"t\\u01b0\\u01a1i ngon\"},\"vi\":{\"title\":\"rau xanh\",\"keyword\":\"rau\",\"description\":\"t\\u01b0\\u01a1i ngon\"}},\"parent\":\"0\",\"alias\":null,\"image\":\"\\/data\\/category\\/cac-loai-rau-cai.jpg\",\"sort\":\"0\",\"top\":\"on\",\"status\":\"on\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:39:41', '2021-11-23 16:39:41'),
+(53, 1, 'sc_admin/category', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:39:42', '2021-11-23 16:39:42'),
+(54, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:39:46', '2021-11-23 16:39:46'),
+(55, 1, 'sc_admin/product/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:39:49', '2021-11-23 16:39:49'),
+(56, 1, 'sc_admin/uploads', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"type\":\"product\"}', '2021-11-23 16:40:08', '2021-11-23 16:40:08'),
+(57, 1, 'sc_admin/uploads/errors', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"product\",\"_\":\"1637685608208\"}', '2021-11-23 16:40:08', '2021-11-23 16:40:08'),
+(58, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"product\",\"_\":\"1637685608207\"}', '2021-11-23 16:40:08', '2021-11-23 16:40:08'),
+(59, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"product\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685608209\"}', '2021-11-23 16:40:08', '2021-11-23 16:40:08'),
+(60, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"product\",\"sort_type\":\"alphabetic\",\"page\":\"2\",\"_\":\"1637685608210\"}', '2021-11-23 16:40:12', '2021-11-23 16:40:12'),
+(61, 1, 'sc_admin/uploads/upload', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"product\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:40:17', '2021-11-23 16:40:17'),
+(62, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"product\",\"_\":\"1637685608211\"}', '2021-11-23 16:40:18', '2021-11-23 16:40:18'),
+(63, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"product\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685608212\"}', '2021-11-23 16:40:18', '2021-11-23 16:40:18'),
+(64, 1, 'sc_admin/product/create', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"kind\":\"0\",\"descriptions\":{\"en\":{\"name\":\"Rau xanh\",\"keyword\":\"rau\",\"description\":\"Rau xanh\",\"content\":\"Rau xanh\"},\"vi\":{\"name\":\"Rau xanh\",\"keyword\":\"rau\",\"description\":\"Rau xanh\",\"content\":\"Rau xanh\"}},\"category\":[\"14\"],\"image\":\"\\/data\\/product\\/cac-loai-rau-cai.jpg\",\"sku\":\"3423\",\"alias\":null,\"brand_id\":\"6\",\"supplier_id\":\"1\",\"cost\":\"1000\",\"price\":\"1000\",\"tax_id\":\"0\",\"stock\":\"1000\",\"weight_class\":\"kg\",\"weight\":\"10\",\"length_class\":\"cm\",\"length\":\"15\",\"height\":\"15\",\"width\":\"15\",\"property\":\"physical\",\"download_path\":null,\"date_available\":\"2021-11-30\",\"minimum\":\"1\",\"sort\":\"1\",\"status\":\"on\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:41:30', '2021-11-23 16:41:30'),
+(65, 1, 'sc_admin/product', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:41:30', '2021-11-23 16:41:30'),
+(66, 1, 'sc_admin/order', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:42:16', '2021-11-23 16:42:16'),
+(67, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:42:31', '2021-11-23 16:42:31'),
+(68, 1, 'sc_admin/banner/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:42:57', '2021-11-23 16:42:57'),
+(69, 1, 'sc_admin/uploads', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"type\":\"banner\"}', '2021-11-23 16:43:06', '2021-11-23 16:43:06'),
+(70, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"_\":\"1637685786584\"}', '2021-11-23 16:43:06', '2021-11-23 16:43:06'),
+(71, 1, 'sc_admin/uploads/errors', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"_\":\"1637685786585\"}', '2021-11-23 16:43:07', '2021-11-23 16:43:07'),
+(72, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685786586\"}', '2021-11-23 16:43:07', '2021-11-23 16:43:07'),
+(73, 1, 'sc_admin/uploads/upload', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:43:13', '2021-11-23 16:43:13'),
+(74, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"_\":\"1637685786587\"}', '2021-11-23 16:43:13', '2021-11-23 16:43:13'),
+(75, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685786588\"}', '2021-11-23 16:43:14', '2021-11-23 16:43:14'),
+(76, 1, 'sc_admin/banner/create', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"image\":\"\\/data\\/banner\\/xx.jpg\",\"url\":null,\"title\":\"sfdaszd\",\"target\":\"_blank\",\"html\":null,\"type\":\"background\",\"sort\":\"0\",\"status\":\"on\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:43:43', '2021-11-23 16:43:43'),
+(77, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:43:44', '2021-11-23 16:43:44'),
+(78, 1, 'sc_admin/banner/edit/5', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:44:01', '2021-11-23 16:44:01'),
+(79, 1, 'sc_admin/banner/edit/5', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"image\":\"\\/data\\/banner\\/xx.jpg\",\"url\":null,\"title\":\"sfdaszd\",\"target\":\"_self\",\"html\":null,\"type\":\"banner\",\"sort\":\"0\",\"status\":\"on\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:44:11', '2021-11-23 16:44:11'),
+(80, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:44:11', '2021-11-23 16:44:11'),
+(81, 1, 'sc_admin/banner/create', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:44:57', '2021-11-23 16:44:57'),
+(82, 1, 'sc_admin/uploads', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"type\":\"banner\"}', '2021-11-23 16:44:59', '2021-11-23 16:44:59'),
+(83, 1, 'sc_admin/uploads/errors', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"_\":\"1637685899384\"}', '2021-11-23 16:44:59', '2021-11-23 16:44:59'),
+(84, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"_\":\"1637685899383\"}', '2021-11-23 16:44:59', '2021-11-23 16:44:59'),
+(85, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":null,\"type\":\"banner\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685899385\"}', '2021-11-23 16:45:00', '2021-11-23 16:45:00'),
+(86, 1, 'sc_admin/uploads/upload', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:45:06', '2021-11-23 16:45:06'),
+(87, 1, 'sc_admin/uploads/folders', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"_\":\"1637685899386\"}', '2021-11-23 16:45:07', '2021-11-23 16:45:07'),
+(88, 1, 'sc_admin/uploads/jsonitems', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"working_dir\":\"\\/\",\"type\":\"banner\",\"sort_type\":\"alphabetic\",\"page\":\"1\",\"_\":\"1637685899387\"}', '2021-11-23 16:45:07', '2021-11-23 16:45:07'),
+(89, 1, 'sc_admin/banner/create', 'POST', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '{\"image\":\"\\/data\\/banner\\/sdsd.jpg\",\"url\":null,\"title\":null,\"target\":null,\"html\":null,\"type\":\"banner\",\"sort\":\"1\",\"status\":\"on\",\"_token\":\"axd3Yg43ckxz8Kl6xU5xqoOswRk1vI9O49GnhP3W\"}', '2021-11-23 16:45:20', '2021-11-23 16:45:20'),
+(90, 1, 'sc_admin/banner', 'GET', '::1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', '[]', '2021-11-23 16:45:20', '2021-11-23 16:45:20');
 
 -- --------------------------------------------------------
 
@@ -3333,10 +3422,8 @@ CREATE TABLE `sc_shop_banner` (
 --
 
 INSERT INTO `sc_shop_banner` (`id`, `title`, `image`, `url`, `target`, `html`, `status`, `sort`, `click`, `type`, `created_at`, `updated_at`) VALUES
-(1, 'Banner home 1', '/data/banner/banner-home-1.jpg', NULL, '_self', '<h1 class=\"swiper-title-1\" data-caption-animate=\"fadeScale\" data-caption-delay=\"100\">Top-notch Furniture</h1><p class=\"biggest text-white-70\" data-caption-animate=\"fadeScale\" data-caption-delay=\"200\">Sofa Store provides the best furniture and accessories for homes and offices.</p><div class=\"button-wrap\" data-caption-animate=\"fadeInUp\" data-caption-delay=\"300\"> <span class=\"button button-zachem-tak-delat button-white button-zakaria\"> Shop now</span> </div>', 1, 0, 0, 'banner', NULL, NULL),
-(2, 'Banner home 2', '/data/banner/banner-home-2.jpg', NULL, '_self', '<h1 class=\"swiper-title-1\" data-caption-animate=\"fadeScale\" data-caption-delay=\"100\">Top-notch Furniture</h1><p class=\"biggest text-white-70\" data-caption-animate=\"fadeScale\" data-caption-delay=\"200\">Sofa Store provides the best furniture and accessories for homes and offices.</p><div class=\"button-wrap\" data-caption-animate=\"fadeInUp\" data-caption-delay=\"300\"> <span class=\"button button-zachem-tak-delat button-white button-zakaria\"> Shop now</span> </div>', 1, 0, 0, 'banner', NULL, NULL),
-(3, 'Banner breadcrumb 3', '/data/banner/breadcrumb.jpg', NULL, '_self', '', 1, 0, 0, 'breadcrumb', NULL, NULL),
-(4, 'Banner store', '/data/banner/banner-store.jpg', NULL, '_self', '', 1, 0, 0, 'banner-store', NULL, NULL);
+(5, 'sfdaszd', '/data/banner/xx.jpg', NULL, '_self', NULL, 1, 0, 0, 'banner', '2021-11-23 16:43:43', '2021-11-23 16:44:11'),
+(6, NULL, '/data/banner/sdsd.jpg', NULL, NULL, NULL, 1, 1, 0, 'banner', '2021-11-23 16:45:20', '2021-11-23 16:45:20');
 
 -- --------------------------------------------------------
 
@@ -3348,16 +3435,6 @@ CREATE TABLE `sc_shop_banner_store` (
   `banner_id` int(11) NOT NULL,
   `store_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_banner_store`
---
-
-INSERT INTO `sc_shop_banner_store` (`banner_id`, `store_id`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1);
 
 -- --------------------------------------------------------
 
@@ -3458,19 +3535,7 @@ CREATE TABLE `sc_shop_category` (
 --
 
 INSERT INTO `sc_shop_category` (`id`, `image`, `alias`, `parent`, `top`, `status`, `sort`) VALUES
-(1, '/data/category/img-40.jpg', 'electronics', 0, 1, 1, 0),
-(2, '/data/category/img-44.jpg', 'clothing-wears', 0, 1, 1, 0),
-(3, '/data/category/img-42.jpg', 'mobile', 1, 1, 1, 0),
-(4, '/data/category/img-18.jpg', 'accessaries-extras', 0, 1, 1, 0),
-(5, '/data/category/img-14.jpg', 'computers', 1, 1, 1, 0),
-(6, '/data/category/img-14.jpg', 'tablets', 1, 0, 1, 0),
-(7, '/data/category/img-40.jpg', 'appliances', 1, 0, 1, 0),
-(8, '/data/category/img-14.jpg', 'men-clothing', 2, 0, 1, 0),
-(9, '/data/category/img-18.jpg', 'women-clothing', 2, 1, 1, 0),
-(10, '/data/category/img-14.jpg', 'kid-wear', 2, 0, 1, 0),
-(11, '/data/category/img-40.jpg', 'mobile-accessaries', 4, 0, 1, 0),
-(12, '/data/category/img-42.jpg', 'women-accessaries', 4, 0, 1, 3),
-(13, '/data/category/img-40.jpg', 'men-accessaries', 4, 0, 1, 3);
+(14, '/data/category/cac-loai-rau-cai.jpg', 'rau-xanh', 0, 1, 1, 0);
 
 -- --------------------------------------------------------
 
@@ -3491,32 +3556,8 @@ CREATE TABLE `sc_shop_category_description` (
 --
 
 INSERT INTO `sc_shop_category_description` (`category_id`, `lang`, `title`, `keyword`, `description`) VALUES
-(1, 'en', 'Electronics', '', ''),
-(1, 'vi', 'Thiết bị điện tử', '', ''),
-(2, 'en', 'Clothing & Wears', '', ''),
-(2, 'vi', 'Quần áo', '', ''),
-(3, 'en', 'Mobile', '', ''),
-(3, 'vi', 'Điện thoại', '', ''),
-(4, 'en', 'Accessaries & Extras', '', ''),
-(4, 'vi', 'Phụ kiện ', '', ''),
-(5, 'en', 'Computers', '', ''),
-(5, 'vi', 'Máy tính', '', ''),
-(6, 'en', 'Tablets', '', ''),
-(6, 'vi', 'Máy tính bảng', '', ''),
-(7, 'en', 'Appliances', '', ''),
-(7, 'vi', 'Thiết bị', '', ''),
-(8, 'en', 'Men Clothing', '', ''),
-(8, 'vi', 'Quần áo nam', '', ''),
-(9, 'en', 'Women Clothing', '', ''),
-(9, 'vi', 'Quần áo nữ', '', ''),
-(10, 'en', 'Kid Wear', '', ''),
-(10, 'vi', 'Đồ trẻ em', '', ''),
-(11, 'en', 'Mobile Accessaries', '', ''),
-(11, 'vi', 'Phụ kiện điện thoại', '', ''),
-(12, 'en', 'Women Accessaries', '', ''),
-(12, 'vi', 'Phụ kiện nữ', '', ''),
-(13, 'en', 'Men Accessaries', '', ''),
-(13, 'vi', 'Phụ kiện nam', '', '');
+(14, 'en', 'rau xanh', 'rau', 'tươi ngon'),
+(14, 'vi', 'rau xanh', 'rau', 'tươi ngon');
 
 -- --------------------------------------------------------
 
@@ -3528,25 +3569,6 @@ CREATE TABLE `sc_shop_category_store` (
   `category_id` int(11) NOT NULL,
   `store_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_category_store`
---
-
-INSERT INTO `sc_shop_category_store` (`category_id`, `store_id`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(7, 1),
-(8, 1),
-(9, 1),
-(10, 1),
-(11, 1),
-(12, 1),
-(13, 1);
 
 -- --------------------------------------------------------
 
@@ -3873,6 +3895,13 @@ CREATE TABLE `sc_shop_customer` (
   `provider_id` varchar(50) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_customer`
+--
+
+INSERT INTO `sc_shop_customer` (`id`, `first_name`, `last_name`, `first_name_kana`, `last_name_kana`, `email`, `sex`, `birthday`, `password`, `address_id`, `postcode`, `address1`, `address2`, `address3`, `company`, `country`, `phone`, `store_id`, `remember_token`, `status`, `group`, `email_verified_at`, `created_at`, `updated_at`, `provider`, `provider_id`) VALUES
+(1, 'thuan', 'ạn', NULL, NULL, 'thuanydbmhg@gmail.com', NULL, NULL, '$2y$10$H/wqBGnthSEIKO8GZbrjr.cRJEwlw8r8vs6KEmlDCNRE3EKTXQRTS', 1, NULL, 'thanh tri', 'sfs', NULL, NULL, 'VN', '0984268997', 1, NULL, 1, 1, NULL, '2021-11-23 16:22:38', '2021-11-23 16:22:38', NULL, NULL);
+
 -- --------------------------------------------------------
 
 --
@@ -3893,6 +3922,13 @@ CREATE TABLE `sc_shop_customer_address` (
   `country` varchar(10) COLLATE utf8mb4_unicode_ci DEFAULT 'VN',
   `phone` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_customer_address`
+--
+
+INSERT INTO `sc_shop_customer_address` (`id`, `customer_id`, `first_name`, `last_name`, `first_name_kana`, `last_name_kana`, `postcode`, `address1`, `address2`, `address3`, `country`, `phone`) VALUES
+(1, 1, 'thuan', 'ạn', '', '', '', 'thanh tri', 'sfs', '', 'VN', '0984268997');
 
 -- --------------------------------------------------------
 
@@ -4125,18 +4161,6 @@ CREATE TABLE `sc_shop_news` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Đang đổ dữ liệu cho bảng `sc_shop_news`
---
-
-INSERT INTO `sc_shop_news` (`id`, `image`, `alias`, `sort`, `status`, `created_at`, `updated_at`) VALUES
-(1, '/data/content/blog-1.jpg', 'demo-alias-blog-1', 0, 1, '2021-11-16 05:59:43', NULL),
-(2, '/data/content/blog-2.jpg', 'demo-alias-blog-2', 0, 1, '2021-11-16 05:59:43', NULL),
-(3, '/data/content/blog-3.jpg', 'demo-alias-blog-3', 0, 1, '2021-11-16 05:59:43', NULL),
-(4, '/data/content/blog-4.jpg', 'demo-alias-blog-4', 0, 1, '2021-11-16 05:59:43', NULL),
-(5, '/data/content/blog-5.jpg', 'demo-alias-blog-5', 0, 1, '2021-11-16 05:59:43', NULL),
-(6, '/data/content/blog-6.jpg', 'demo-alias-blog-6', 0, 1, '2021-11-16 05:59:43', NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -4152,24 +4176,6 @@ CREATE TABLE `sc_shop_news_description` (
   `content` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Đang đổ dữ liệu cho bảng `sc_shop_news_description`
---
-
-INSERT INTO `sc_shop_news_description` (`news_id`, `lang`, `title`, `keyword`, `description`, `content`) VALUES
-(1, 'en', 'Easy Polo Black Edition 1', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(1, 'vi', 'Easy Polo Black Edition 1', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(2, 'en', 'Easy Polo Black Edition 2', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(2, 'vi', 'Easy Polo Black Edition 2', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(3, 'en', 'Easy Polo Black Edition 3', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(3, 'vi', 'Easy Polo Black Edition 3', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(4, 'en', 'Easy Polo Black Edition 4', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(4, 'vi', 'Easy Polo Black Edition 4', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(5, 'en', 'Easy Polo Black Edition 5', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(5, 'vi', 'Easy Polo Black Edition 5', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(6, 'en', 'Easy Polo Black Edition 6', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(6, 'vi', 'Easy Polo Black Edition 6', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>');
-
 -- --------------------------------------------------------
 
 --
@@ -4180,18 +4186,6 @@ CREATE TABLE `sc_shop_news_store` (
   `news_id` int(11) NOT NULL,
   `store_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_news_store`
---
-
-INSERT INTO `sc_shop_news_store` (`news_id`, `store_id`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1);
 
 -- --------------------------------------------------------
 
@@ -4239,6 +4233,14 @@ CREATE TABLE `sc_shop_order` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_order`
+--
+
+INSERT INTO `sc_shop_order` (`id`, `customer_id`, `domain`, `subtotal`, `shipping`, `discount`, `payment_status`, `shipping_status`, `status`, `tax`, `total`, `currency`, `exchange_rate`, `received`, `balance`, `first_name`, `last_name`, `first_name_kana`, `last_name_kana`, `address1`, `address2`, `address3`, `country`, `company`, `postcode`, `phone`, `email`, `comment`, `payment_method`, `shipping_method`, `user_agent`, `device_type`, `ip`, `transaction`, `store_id`, `created_at`, `updated_at`) VALUES
+(1, 1, 'http://localhost/s-cart/public', 600, 20, 0, 3, 3, 5, 60, 680, 'USD', 1.00, 0, 680, 'thuan', 'ạn', NULL, NULL, 'thanh tri', 'sfs', NULL, 'VN', NULL, NULL, '0984268997', 'thuanydbmhg@gmail.com', NULL, 'Cash', 'ShippingStandard', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', 'desktop', '::1', NULL, 1, '2021-11-23 16:23:38', '2021-11-23 16:36:23'),
+(2, 1, 'http://localhost/s-cart/public', 80000, 400, 0, 1, 1, 1, 0, 80400, 'VND', 20.00, 0, 80400, 'thuan', 'ạn', NULL, NULL, 'thanh tri', 'sfs', NULL, 'VN', NULL, NULL, '0984268997', 'thuanydbmhg@gmail.com', NULL, 'Cash', 'ShippingStandard', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36', 'desktop', '::1', NULL, 1, '2021-11-23 16:42:11', '2021-11-23 16:42:11');
+
 -- --------------------------------------------------------
 
 --
@@ -4263,6 +4265,14 @@ CREATE TABLE `sc_shop_order_detail` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_order_detail`
+--
+
+INSERT INTO `sc_shop_order_detail` (`id`, `order_id`, `product_id`, `name`, `price`, `qty`, `store_id`, `total_price`, `tax`, `sku`, `currency`, `exchange_rate`, `attribute`, `created_at`, `updated_at`) VALUES
+(1, 1, 22, 'Easy Polo Black Edition 22', 600, 1, 1, 600, 60, 'MITOM-AY', 'USD', 1.00, '[]', '2021-11-23 16:23:38', '2021-11-23 16:23:38'),
+(2, 2, 25, 'Rau xanh', 20000, 4, 1, 80000, 0, '3423', 'VND', 20.00, '[]', '2021-11-23 16:42:11', '2021-11-23 16:42:11');
+
 -- --------------------------------------------------------
 
 --
@@ -4278,6 +4288,17 @@ CREATE TABLE `sc_shop_order_history` (
   `order_status_id` int(11) NOT NULL DEFAULT 0,
   `add_date` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_order_history`
+--
+
+INSERT INTO `sc_shop_order_history` (`id`, `order_id`, `content`, `admin_id`, `customer_id`, `order_status_id`, `add_date`) VALUES
+(1, 1, 'New order', 0, 1, 1, '2021-11-23 23:23:38'),
+(2, 1, 'Change <b>status</b> from <span style=\"color:blue\">\'1\'</span> to <span style=\"color:red\">\'5\'</span>', 1, 0, 5, '2021-11-23 23:34:41'),
+(3, 1, 'Change <b>shipping_status</b> from <span style=\"color:blue\">\'1\'</span> to <span style=\"color:red\">\'3\'</span>', 1, 0, 5, '2021-11-23 23:35:21'),
+(4, 1, 'Change <b>payment_status</b> from <span style=\"color:blue\">\'1\'</span> to <span style=\"color:red\">\'3\'</span>', 1, 0, 5, '2021-11-23 23:36:23'),
+(5, 2, 'New order', 0, 1, 1, '2021-11-23 23:42:11');
 
 -- --------------------------------------------------------
 
@@ -4319,6 +4340,24 @@ CREATE TABLE `sc_shop_order_total` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_order_total`
+--
+
+INSERT INTO `sc_shop_order_total` (`id`, `order_id`, `title`, `code`, `value`, `text`, `sort`, `created_at`, `updated_at`) VALUES
+(1, 1, 'Tiền hàng', 'subtotal', 600, '$600', 1, '2021-11-23 16:23:38', NULL),
+(2, 1, 'Thuế', 'tax', 60, '$60', 2, '2021-11-23 16:23:38', NULL),
+(3, 1, 'Vận chuyển cơ bản', 'shipping', 20, '$20', 10, '2021-11-23 16:23:38', NULL),
+(4, 1, 'Giảm giá', 'discount', 0, '0', 20, '2021-11-23 16:23:38', NULL),
+(5, 1, 'Tổng tiền', 'total', 680, '$680', 100, '2021-11-23 16:23:38', NULL),
+(6, 1, 'Đã nhận', 'received', 0, '0', 200, '2021-11-23 16:23:38', NULL),
+(7, 2, 'Tiền hàng', 'subtotal', 80000, '80,000₫', 1, '2021-11-23 16:42:11', NULL),
+(8, 2, 'Thuế', 'tax', 0, '0₫', 2, '2021-11-23 16:42:11', NULL),
+(9, 2, 'Vận chuyển cơ bản', 'shipping', 400, '400₫', 10, '2021-11-23 16:42:11', NULL),
+(10, 2, 'Giảm giá', 'discount', 0, '0', 20, '2021-11-23 16:42:11', NULL),
+(11, 2, 'Tổng tiền', 'total', 80400, '80,400₫', 100, '2021-11-23 16:42:11', NULL),
+(12, 2, 'Đã nhận', 'received', 0, '0', 200, '2021-11-23 16:42:11', NULL);
 
 -- --------------------------------------------------------
 
@@ -4460,30 +4499,7 @@ CREATE TABLE `sc_shop_product` (
 --
 
 INSERT INTO `sc_shop_product` (`id`, `sku`, `upc`, `ean`, `jan`, `isbn`, `mpn`, `image`, `brand_id`, `supplier_id`, `price`, `cost`, `stock`, `sold`, `minimum`, `weight_class`, `weight`, `length_class`, `length`, `width`, `height`, `kind`, `property`, `tax_id`, `status`, `sort`, `view`, `alias`, `date_lastview`, `date_available`, `created_at`, `updated_at`) VALUES
-(1, 'NEMCHUA', NULL, NULL, NULL, NULL, NULL, '/data/product/product-1.png', 1, 1, 15000, 10000, 99, 1, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-1', NULL, NULL, NULL, NULL),
-(2, 'BANHGAI', NULL, NULL, NULL, NULL, NULL, '/data/product/product-2.png', 1, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-2', NULL, NULL, NULL, NULL),
-(3, 'BANHTRANG', NULL, NULL, NULL, NULL, NULL, '/data/product/product-3.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-3', NULL, NULL, NULL, NULL),
-(4, 'MITOM', NULL, NULL, NULL, NULL, NULL, '/data/product/product-4.png', 3, 1, 15000, 10000, 100, 0, 5, NULL, 0, NULL, 0, 0, 0, 2, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-4', NULL, NULL, NULL, NULL),
-(5, 'MIGOI', NULL, NULL, NULL, NULL, NULL, '/data/product/product-5.png', 1, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 1, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-5', NULL, NULL, NULL, NULL),
-(6, 'TMC2208', NULL, NULL, NULL, NULL, NULL, '/data/product/product-6.png', 1, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-6', NULL, NULL, NULL, NULL),
-(7, 'FILAMENT', NULL, NULL, NULL, NULL, NULL, '/data/product/product-7.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-7', NULL, NULL, NULL, NULL),
-(8, 'A4988', NULL, NULL, NULL, NULL, NULL, '/data/product/product-8.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-8', NULL, NULL, NULL, NULL),
-(9, 'ANYCUBIC-P', NULL, NULL, NULL, NULL, NULL, '/data/product/product-9.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-9', NULL, NULL, NULL, NULL),
-(10, '3DHLFD-P', NULL, NULL, NULL, NULL, NULL, '/data/product/product-10.png', 4, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 1, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-10', NULL, NULL, NULL, NULL),
-(11, 'SS495A', NULL, NULL, NULL, NULL, NULL, '/data/product/product-11.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-11', NULL, NULL, NULL, NULL),
-(12, '3D-CARBON175', NULL, NULL, NULL, NULL, NULL, '/data/product/product-12.png', 2, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-12', NULL, NULL, NULL, NULL),
-(13, '3D-GOLD175', NULL, NULL, NULL, NULL, NULL, '/data/product/product-13.png', 3, 1, 10000, 5000, 0, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-13', NULL, NULL, NULL, NULL),
-(14, 'LCD12864-3D', NULL, NULL, NULL, NULL, NULL, '/data/product/product-14.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 2, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-14', NULL, NULL, NULL, NULL),
-(15, 'LCD2004-3D', NULL, NULL, NULL, NULL, NULL, '/data/product/product-15.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 1, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-15', NULL, NULL, NULL, NULL),
-(16, 'RAMPS15-3D', NULL, NULL, NULL, NULL, NULL, '/data/product/product-16.png', 2, 1, 15000, 10000, 0, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-16', NULL, NULL, NULL, NULL),
-(17, 'NEMCHUA-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-17.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-17', NULL, NULL, NULL, NULL),
-(18, 'CARBON175-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-18.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-18', NULL, NULL, NULL, NULL),
-(19, 'A4988-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-19.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 2, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-19', NULL, NULL, NULL, NULL),
-(20, 'MIGOI-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-20.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 1, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-20', NULL, NULL, NULL, NULL),
-(21, 'ALOKK1-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-21.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-21', NULL, NULL, NULL, NULL),
-(22, 'MITOM-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-22.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-22', NULL, NULL, NULL, NULL),
-(23, 'A4988-AY', NULL, NULL, NULL, NULL, NULL, '/data/product/product-23.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 2, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-23', NULL, NULL, NULL, NULL),
-(24, 'BANHTRANG-12', NULL, NULL, NULL, NULL, NULL, '/data/product/product-24.png', 3, 1, 15000, 10000, 100, 0, 0, NULL, 0, NULL, 0, 0, 0, 0, 'physical', 'auto', 1, 0, 0, 'demo-alias-name-product-24', NULL, NULL, NULL, NULL);
+(25, '3423', NULL, NULL, NULL, NULL, NULL, '/data/product/cac-loai-rau-cai.jpg', 6, 1, 1000, 1000, 996, 4, 1, 'kg', 10, 'cm', 15, 15, 15, 0, 'physical', '0', 1, 1, 1, 'rau-xanh', '2021-11-23 23:41:54', '2021-11-30', '2021-11-23 16:41:30', '2021-11-23 16:42:11');
 
 -- --------------------------------------------------------
 
@@ -4501,20 +4517,6 @@ CREATE TABLE `sc_shop_product_attribute` (
   `status` tinyint(4) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_attribute`
---
-
-INSERT INTO `sc_shop_product_attribute` (`id`, `name`, `attribute_group_id`, `product_id`, `add_price`, `sort`, `status`) VALUES
-(1, 'Blue', 1, 24, 50, 0, 1),
-(2, 'White', 1, 24, 0, 0, 1),
-(3, 'S', 2, 24, 20, 0, 1),
-(4, 'XL', 2, 24, 30, 0, 1),
-(5, 'Blue', 1, 12, 150, 0, 1),
-(6, 'Red', 1, 12, 0, 0, 1),
-(7, 'S', 2, 12, 0, 0, 1),
-(8, 'M', 2, 12, 0, 0, 1);
-
 -- --------------------------------------------------------
 
 --
@@ -4526,20 +4528,6 @@ CREATE TABLE `sc_shop_product_build` (
   `product_id` int(11) NOT NULL,
   `quantity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_build`
---
-
-INSERT INTO `sc_shop_product_build` (`build_id`, `product_id`, `quantity`) VALUES
-(5, 3, 1),
-(5, 7, 2),
-(10, 13, 1),
-(10, 17, 2),
-(15, 14, 2),
-(15, 16, 1),
-(20, 3, 2),
-(20, 13, 2);
 
 -- --------------------------------------------------------
 
@@ -4557,32 +4545,7 @@ CREATE TABLE `sc_shop_product_category` (
 --
 
 INSERT INTO `sc_shop_product_category` (`product_id`, `category_id`) VALUES
-(1, 6),
-(1, 10),
-(1, 13),
-(2, 13),
-(3, 11),
-(4, 11),
-(5, 11),
-(6, 11),
-(7, 12),
-(8, 10),
-(9, 6),
-(10, 11),
-(11, 10),
-(12, 9),
-(13, 5),
-(14, 11),
-(15, 6),
-(16, 9),
-(17, 9),
-(18, 9),
-(19, 6),
-(20, 11),
-(21, 10),
-(22, 10),
-(23, 12),
-(24, 9);
+(25, 14);
 
 -- --------------------------------------------------------
 
@@ -4604,54 +4567,8 @@ CREATE TABLE `sc_shop_product_description` (
 --
 
 INSERT INTO `sc_shop_product_description` (`product_id`, `lang`, `name`, `keyword`, `description`, `content`) VALUES
-(1, 'en', 'Easy Polo Black Edition 1', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(1, 'vi', 'Easy Polo Black Edition 1', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(2, 'en', 'Easy Polo Black Edition 2', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(2, 'vi', 'Easy Polo Black Edition 2', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(3, 'en', 'Easy Polo Black Edition 3', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(3, 'vi', 'Easy Polo Black Edition 3', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(4, 'en', 'Easy Polo Black Edition 4', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(4, 'vi', 'Easy Polo Black Edition 4', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(5, 'en', 'Easy Polo Black Edition 5', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(5, 'vi', 'Easy Polo Black Edition 5', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(6, 'en', 'Easy Polo Black Edition 6', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(6, 'vi', 'Easy Polo Black Edition 6', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(7, 'en', 'Easy Polo Black Edition 7', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(7, 'vi', 'Easy Polo Black Edition 7', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(8, 'en', 'Easy Polo Black Edition 8', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(8, 'vi', 'Easy Polo Black Edition 8', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(9, 'en', 'Easy Polo Black Edition 9', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(9, 'vi', 'Easy Polo Black Edition 9', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(10, 'en', 'Easy Polo Black Edition 10', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(10, 'vi', 'Easy Polo Black Edition 10', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(11, 'en', 'Easy Polo Black Edition 11', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(11, 'vi', 'Easy Polo Black Edition 11', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(12, 'en', 'Easy Polo Black Edition 12', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(12, 'vi', 'Easy Polo Black Edition 12', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(13, 'en', 'Easy Polo Black Edition 13', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(13, 'vi', 'Easy Polo Black Edition 13', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(14, 'en', 'Easy Polo Black Edition 14', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(14, 'vi', 'Easy Polo Black Edition 14', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(15, 'en', 'Easy Polo Black Edition 15', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(15, 'vi', 'Easy Polo Black Edition 15', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(16, 'en', 'Easy Polo Black Edition 16', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(16, 'vi', 'Easy Polo Black Edition 16', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(17, 'en', 'Easy Polo Black Edition 17', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(17, 'vi', 'Easy Polo Black Edition 17', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(18, 'en', 'Easy Polo Black Edition 18', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(18, 'vi', 'Easy Polo Black Edition 18', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(19, 'en', 'Easy Polo Black Edition 19', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(19, 'vi', 'Easy Polo Black Edition 19', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(20, 'en', 'Easy Polo Black Edition 20', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(20, 'vi', 'Easy Polo Black Edition 20', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(21, 'en', 'Easy Polo Black Edition 21', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(21, 'vi', 'Easy Polo Black Edition 21', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(22, 'en', 'Easy Polo Black Edition 22', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(22, 'vi', 'Easy Polo Black Edition 22', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(23, 'en', 'Easy Polo Black Edition 23', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(23, 'vi', 'Easy Polo Black Edition 23', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(24, 'en', 'Easy Polo Black Edition 24', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>'),
-(24, 'vi', 'Easy Polo Black Edition 24', '', '', '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<img alt=\"\" src=\"/data/product/product-10.png\" style=\"width: 150px; float: right; margin: 10px;\" /></p>\n<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>');
+(25, 'en', 'Rau xanh', 'rau', 'Rau xanh', 'Rau xanh'),
+(25, 'vi', 'Rau xanh', 'rau', 'Rau xanh', 'Rau xanh');
 
 -- --------------------------------------------------------
 
@@ -4676,20 +4593,6 @@ CREATE TABLE `sc_shop_product_group` (
   `product_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_group`
---
-
-INSERT INTO `sc_shop_product_group` (`group_id`, `product_id`) VALUES
-(4, 2),
-(4, 6),
-(14, 2),
-(14, 12),
-(19, 11),
-(19, 21),
-(23, 3),
-(23, 7);
-
 -- --------------------------------------------------------
 
 --
@@ -4701,36 +4604,6 @@ CREATE TABLE `sc_shop_product_image` (
   `image` varchar(255) COLLATE utf8mb4_unicode_ci NOT NULL,
   `product_id` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_image`
---
-
-INSERT INTO `sc_shop_product_image` (`id`, `image`, `product_id`) VALUES
-(1, '/data/product/product-2.png', 1),
-(2, '/data/product/product-11.png', 1),
-(3, '/data/product/product-8.png', 11),
-(4, '/data/product/product-6.png', 2),
-(5, '/data/product/product-13.png', 11),
-(6, '/data/product/product-12.png', 5),
-(7, '/data/product/product-6.png', 5),
-(8, '/data/product/product-1.png', 2),
-(9, '/data/product/product-15.png', 2),
-(10, '/data/product/product-5.png', 9),
-(11, '/data/product/product-8.png', 8),
-(12, '/data/product/product-2.png', 7),
-(13, '/data/product/product-6.png', 7),
-(14, '/data/product/product-11.png', 5),
-(15, '/data/product/product-13.png', 4),
-(16, '/data/product/product-13.png', 15),
-(17, '/data/product/product-6.png', 15),
-(18, '/data/product/product-12.png', 17),
-(19, '/data/product/product-6.png', 17),
-(20, '/data/product/product-2.png', 17),
-(21, '/data/product/product-18.png', 22),
-(22, '/data/product/product-19.png', 22),
-(23, '/data/product/product-24.png', 24),
-(24, '/data/product/product-22.png', 24);
 
 -- --------------------------------------------------------
 
@@ -4747,20 +4620,6 @@ CREATE TABLE `sc_shop_product_promotion` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_promotion`
---
-
-INSERT INTO `sc_shop_product_promotion` (`product_id`, `price_promotion`, `date_start`, `date_end`, `status_promotion`, `created_at`, `updated_at`) VALUES
-(1, 5000, NULL, NULL, 1, NULL, NULL),
-(2, 3000, NULL, NULL, 1, NULL, NULL),
-(6, 4000, NULL, NULL, 1, NULL, NULL),
-(8, 5000, NULL, NULL, 1, NULL, NULL),
-(12, 3000, NULL, NULL, 1, NULL, NULL),
-(16, 4000, NULL, NULL, 1, NULL, NULL),
-(18, 4000, NULL, NULL, 1, NULL, NULL),
-(22, 600, NULL, NULL, 1, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -4792,36 +4651,6 @@ CREATE TABLE `sc_shop_product_store` (
   `product_id` int(11) NOT NULL,
   `store_id` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `sc_shop_product_store`
---
-
-INSERT INTO `sc_shop_product_store` (`product_id`, `store_id`) VALUES
-(1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 1),
-(6, 1),
-(7, 1),
-(8, 1),
-(9, 1),
-(10, 1),
-(11, 1),
-(12, 1),
-(13, 1),
-(14, 1),
-(15, 1),
-(16, 1),
-(17, 1),
-(18, 1),
-(19, 1),
-(20, 1),
-(21, 1),
-(22, 1),
-(23, 1),
-(24, 1);
 
 -- --------------------------------------------------------
 
@@ -4891,6 +4720,13 @@ CREATE TABLE `sc_shop_shoppingcart` (
   `updated_at` timestamp NULL DEFAULT NULL,
   `store_id` int(11) NOT NULL DEFAULT 1
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Đang đổ dữ liệu cho bảng `sc_shop_shoppingcart`
+--
+
+INSERT INTO `sc_shop_shoppingcart` (`identifier`, `instance`, `content`, `created_at`, `updated_at`, `store_id`) VALUES
+('1', 'default', '[]', '2021-11-23 16:42:11', '2021-11-23 16:42:11', 1);
 
 -- --------------------------------------------------------
 
@@ -5612,7 +5448,7 @@ ALTER TABLE `sc_admin_config`
 -- AUTO_INCREMENT cho bảng `sc_admin_log`
 --
 ALTER TABLE `sc_admin_log`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_admin_menu`
@@ -5672,7 +5508,7 @@ ALTER TABLE `sc_shop_attribute_group`
 -- AUTO_INCREMENT cho bảng `sc_shop_banner`
 --
 ALTER TABLE `sc_shop_banner`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_banner_type`
@@ -5690,7 +5526,7 @@ ALTER TABLE `sc_shop_brand`
 -- AUTO_INCREMENT cho bảng `sc_shop_category`
 --
 ALTER TABLE `sc_shop_category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_country`
@@ -5708,13 +5544,13 @@ ALTER TABLE `sc_shop_currency`
 -- AUTO_INCREMENT cho bảng `sc_shop_customer`
 --
 ALTER TABLE `sc_shop_customer`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_customer_address`
 --
 ALTER TABLE `sc_shop_customer_address`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_custom_field`
@@ -5774,19 +5610,19 @@ ALTER TABLE `sc_shop_news`
 -- AUTO_INCREMENT cho bảng `sc_shop_order`
 --
 ALTER TABLE `sc_shop_order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_order_detail`
 --
 ALTER TABLE `sc_shop_order_detail`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_order_history`
 --
 ALTER TABLE `sc_shop_order_history`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_order_status`
@@ -5798,7 +5634,7 @@ ALTER TABLE `sc_shop_order_status`
 -- AUTO_INCREMENT cho bảng `sc_shop_order_total`
 --
 ALTER TABLE `sc_shop_order_total`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_page`
@@ -5816,7 +5652,7 @@ ALTER TABLE `sc_shop_payment_status`
 -- AUTO_INCREMENT cho bảng `sc_shop_product`
 --
 ALTER TABLE `sc_shop_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT cho bảng `sc_shop_product_attribute`
